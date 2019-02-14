@@ -14,4 +14,19 @@ accordingly.
 - A main function that first calls the training process to read all the documents and create the
 hash table. 
 
+Uses: 
+## tf-idf Algorithm
+Givens: hashmap of documents, query of *m* words
+
+Using results below, the *tf-idf* of a word *w* in document *i* is *tf-idf(w,i)=tf x idf*
+
+For each document, the rank or relevance of the document is given by the sum of *tf-idf* scores for each word in the query.
+
+### Term Frequency: tf
+Frequency of word *w* in document *i* is given by *tf(w,i)*= (num_occurences of *w* in *i*)
+
+###Inverse Document Frequency
+-Document frequency *df* is the number of documents containing the term *w*
+-Inverse Document Frequency *idf* is defined as *idf = log(N/df)* where *N* is the total number of documents (if *df*=0 then 1 is added to avoid N/0) so *idf = log(N/df+1)*
+
 
