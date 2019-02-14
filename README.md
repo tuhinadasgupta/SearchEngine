@@ -1,5 +1,4 @@
 # SearchEngine
-Includes: 
 - A function training for the “training” process, i.e., pre-processing, that takes a set of
 documents as input and returns the populated hash table as output. Figure out the specifications
 for the function.
@@ -13,8 +12,7 @@ words and removes the stop words from the hash table and adjusts the hash table 
 accordingly.
 - A main function that first calls the training process to read all the documents and create the
 hash table. 
-
-Uses: 
+ 
 ## tf-idf Algorithm
 Givens: hashmap of documents, query of *m* words
 
